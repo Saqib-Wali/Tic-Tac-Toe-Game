@@ -23,6 +23,7 @@ const resetGame = () => {
   turnO = true;
   enableBoxes();
   msgContainer.classList.add("hide");
+  count = 0;
 };
 
 const disableBoxes = () => {
