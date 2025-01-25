@@ -38,6 +38,7 @@ body{
     box-shadow: 0 0 1rem rgba(0,0,0,0.4);
     font-size: 8vmin;
     color: #b0414e;
+    background-color: #ffffc7;
 }
 
 #reset-button{
@@ -47,4 +48,26 @@ body{
     border-radius: 1rem;
     background-color: #191913;
     color: white;
+}
+
+#new-button{
+    padding: 1rem;
+    font-size: 1.25rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: #191913;
+    color: white;
+}
+
+.msg-con{
+    height: 10vmin;
+}
+#msg{
+    color: wheat;
+    font-size: 8vmin;
+}
+
+
+.hide{
+    display: none;
 }
