@@ -1,78 +1,77 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background-color: #548687;
-    text-align: center;
+body {
+  background-color: #548687;
+  text-align: center;
 }
 
-.game-title{
-    font-size: 9vmin;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+.game-title {
+  font-size: 9vmin;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-.container{
-    height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.game{
-    height: 60vmin;
-    width: 70vmin;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 1.5vmin;
+.container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.box{
-    height: 18vmin;
-    width: 18vmin;
-    border-radius: 10px;
-    border: none;
-    box-shadow: 0 0 1rem rgba(0,0,0,0.4);
-    font-size: 8vmin;
-    color: #b0414e;
-    background-color: #ffffc7;
+.game {
+  height: 60vmin;
+  width: 70vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
 }
 
-#reset-button{
-    padding: 1rem;
-    font-size: 1.25rem;
-    border: none;
-    border-radius: 1rem;
-    background-color: #191913;
-    color: white;
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
+  font-size: 8vmin;
+  color: #b0414e;
+  background-color: #ffffc7;
 }
 
-#new-button{
-    padding: 1rem;
-    font-size: 1.25rem;
-    border: none;
-    border-radius: 1rem;
-    background-color: #191913;
-    color: white;
+#reset-button {
+  padding: 1rem;
+  font-size: 1.25rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: #191913;
+  color: white;
 }
 
-.msg-con{
-    height: 100vmin;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-}
-#msg{
-    color: wheat;
-    font-size: 5vmin;
+#new-button {
+  padding: 1rem;
+  font-size: 1.25rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: #191913;
+  color: white;
 }
 
+.msg-con {
+  height: 100vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+#msg {
+  color: wheat;
+  font-size: 5vmin;
+}
 
-.hide{
-    display: none;
+.hide {
+  display: none;
 }
